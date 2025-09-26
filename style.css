@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Text spacing classes */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.text-spacing {
+    margin: 20px 0;
+}
+
+.large-spacing {
+    margin: 40px 0;
+}
+
+.small-spacing {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #faef19;
+    color: #2a732d;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+}
+
+.button:hover {
+    background-color: #f1c40f;
+    transform: scale(1.05);
+}
+
+.image-gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-gallery td {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.image-gallery img {
+    border: 2px solid #2a732d;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
