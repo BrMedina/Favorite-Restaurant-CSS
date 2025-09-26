@@ -41,7 +41,7 @@ p {
     font-size: 1.1em;
     line-height: 1.7;
     margin: 15px 0;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Center content properly */
@@ -70,8 +70,9 @@ p {
 .welcome-section p {
     font-size: 1.2em;
     color: #495057;
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto 15px auto;
+    text-align: center;
 }
 
 /* About section styling */
